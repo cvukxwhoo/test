@@ -1,60 +1,68 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --text-color : rgb(165, 165, 209);
+  --text-color: rgb(165, 165, 209);
 }
 
 h1 {
-    margin: 110px 0 40px 100px;
-    font-size: 50px;
+  margin: 110px 0 40px 100px;
+  font-size: 50px;
 }
 
 .bighead {
-    display: flex;
-    margin: 0 100px 50px 100px;
+  display: flex;
+  margin: 0 100px 50px 100px;
 }
 
 .big1 {
-    flex: 1;
+  flex: 1;
 }
 
 .big2 {
-    flex: 1;
-    font-family: sans-serif;
+  flex: 1;
+  font-family: sans-serif;
+  display: flex;
 }
 
 .bigbody {
-    display: flex;
-    margin: 0 100px 0 100px;
-    gap: 50px;
+  display: flex;
+  margin: 0 100px 0 100px;
+  gap: 50px;
 }
 
 .bigbody1 {
-    flex: 1;
+  flex: 1;
 }
 
 .bigbody2 {
-    flex: 1;
+  flex: 1;
 }
 
 .bigbody3 {
-    flex: 1;
+  flex: 1;
 }
 
 .girlxinh {
-    clip-path: circle();
+  clip-path: circle();
 }
 
 .fontfamily {
-    font-family: sans-serif;
+  font-family: sans-serif;
+}
+
+.big2 a:hover {
+  border-radius: 8px;
+  background: #849fff;
+  color: #fff;
 }
 
 .noot {
-    font-size: 20px;
-    color: black;
-    padding-right: 25px;
+  font-size: 20px;
+  color: black;
+  padding-right: 25px;
+  text-decoration: none;
 }
